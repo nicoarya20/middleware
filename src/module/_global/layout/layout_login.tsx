@@ -8,7 +8,7 @@ function LayoutLogin({ children }: { children: React.ReactNode }) {
     <>
       <LayoutBackground>
         <Stack gap={4} justify="center" align="center" pt={rem(50)}>
-          <Image src={"/assets/image/logo.png"} alt="" w={103} h={103} />
+          <Image src={"/assets/images/logo.png"} alt="" w={103} h={103} />
           <Text fz={"sm"} fw={"bold"} c={WARNA.bgTombol}>Everything You Need In One Place</Text>
           {children}
         </Stack>
