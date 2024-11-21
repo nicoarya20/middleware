@@ -1,9 +1,10 @@
-import ViewLogin from "@/module/auth/login/view/view_login";
+import { Title } from "@mantine/core";
+
 
 export default function Home() {
   return (
     <>
-      <ViewLogin/>
+      <Title>Landing Page</Title>
     </>
   );
 }

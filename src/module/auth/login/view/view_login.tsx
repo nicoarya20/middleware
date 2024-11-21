@@ -35,7 +35,7 @@ function ViewLogin() {
               <Flex gap={3} align={"center"} justify={"center"}>
                 <Text fz={"xs"} c={WARNA.bgTombol}>Belum Punya Akun? </Text>
                 <Anchor variant='transparent' c={WARNA.bgTombol}>
-                  <Text fz={"xs"} c={WARNA.bgTombol} onClick={() => router.push("/register")} fw={"bold"} >Daftar Sekarang</Text>
+                  <Text fz={"xs"} c={WARNA.bgTombol} onClick={() => router.push("/registrasi")} fw={"bold"} >Daftar Sekarang</Text>
                 </Anchor>
               </Flex>
             </Box>
